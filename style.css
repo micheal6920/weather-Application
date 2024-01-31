@@ -11,7 +11,7 @@ body{
 }
 
 .outline{
-    width: 100%;
+    width: 90%;
     max-width: 460px;
     background:linear-gradient(135deg,#00feba,#5b548a);
     margin: 100px auto 0px;

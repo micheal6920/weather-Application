@@ -1,0 +1,101 @@
+*{
+    margin:0%;
+    padding: 0%;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background:#222;
+}
+
+.outline{
+    width: 100%;
+    max-width: 460px;
+    background:linear-gradient(135deg,#00feba,#5b548a);
+    margin: 100px auto 0px;
+    padding:40px 35px;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.input_img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.input_img input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    padding: 10px 25px;
+    height: 60px;
+    color: #555;
+    background: #ebfffc;
+    margin-right: 16px;
+    border-radius: 30px;
+    font-size:16px;
+}
+.input_img button {
+    border:0;
+    outline:0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width:60px;
+    height:60px;
+    cursor: pointer;
+}
+.input_img button img{
+    width:20px;
+    margin:6.5px 0px 0px 1px;
+}
+
+.sunIcon{
+    width: 140px;
+    margin-top:30px;
+}
+.wheather h1{
+    font-size:80px;
+    font-weight: 500;
+    padding-top:10px;
+}
+.wheather h2{
+    font-size:45px;
+    font-weight: 400;
+    margin-top:-10px;
+}
+
+.detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top:50px;
+
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width:50px;
+    margin-right: 10px;
+}
+.humanity,.wind{
+    font-size: 28px;
+    margin-bottom: 6px;
+}
+
+.wheather{
+    display: none;
+}
+
+.error{
+    text-align: left;
+    margin:20px 0px 0px 16px;
+    font-size: 16px;
+    display: none;
+}
